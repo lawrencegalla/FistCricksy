@@ -1,0 +1,84 @@
+body{
+  font-family: 'Poppins', sans-serif;
+  text-align:center;
+  background:url("pitch.jpg") center/cover no-repeat;
+  margin:0;
+}
+
+.game-container{
+  position:relative;
+  background-color: rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px);
+  width:90%;
+  max-width:800px;
+  margin:20px auto;
+  padding:30px;
+  border-radius:15px;
+}
+
+#targetBox{
+  position:absolute;
+  top: 25px;
+  right:30px;
+  font-size:18px;
+  font-weight:600;
+  background:#fff;
+  padding:6px 12px;
+  border-radius:10px;
+  box-shadow:0 2px 6px rgba(0,0,0,0.2);
+}
+
+.hands{
+  display:flex;
+  justify-content:center;
+  gap:40px;
+  margin:20px;
+}
+
+.hands img{
+  width: 180px;
+  border:2px solid black;
+  border-radius:10px;
+}
+
+
+#buttons button {
+  color: #090909;
+  padding: 10px 17px;
+  left: 19px;
+  font-size: 18px;
+  border-radius: 10px;
+  background: #e8e8e8;
+  cursor: pointer;
+  border: 1px solid #0e0a0a;
+  transition: all 0.3s;
+}
+
+button:hover {
+  border: 1px solid white;
+}
+
+button:active {
+  box-shadow: 4px 4px 12px #c5c5c5, -4px -4px 12px #ffffff;
+}
+h1{
+  font-weight:700;
+  letter-spacing:2px;
+  font-size:32px;
+}
+
+#status{
+    color:red;
+    font-size: large;
+    padding: 2%;
+    background-color:transparent;
+    
+
+}
+#restart{
+  position:absolute;
+  bottom: 25px;
+  right:30px;
+  
+}
